@@ -1,0 +1,6 @@
+F:\Projects\DTO Mapping Test\DTO Mapping Test Entities\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Projects\DTO Mapping Test\DTO Mapping Test Entities\bin\Debug\DTO Mapping Test Entities.dll.config
+F:\Projects\DTO Mapping Test\DTO Mapping Test Entities\bin\Debug\DTO Mapping Test Entities.dll
+F:\Projects\DTO Mapping Test\DTO Mapping Test Entities\bin\Debug\DTO Mapping Test Entities.pdb
+F:\Projects\DTO Mapping Test\DTO Mapping Test Entities\obj\x86\Debug\DTO Mapping Test Entities.dll
+F:\Projects\DTO Mapping Test\DTO Mapping Test Entities\obj\x86\Debug\DTO Mapping Test Entities.pdb

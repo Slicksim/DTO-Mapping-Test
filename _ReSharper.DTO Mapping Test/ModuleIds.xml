@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9" ModuleId="DTO Mapping Test" />
+  <Module PersistentId="5B4D56CD-19A5-45C8-92EF-11BB29876571" ModuleId="DTO Mapping Test Tests" />
+  <Module PersistentId="36CED6A7-B620-466B-8B17-FC2E6085604D" ModuleId="DTO Mapping Test Service" />
+  <Module PersistentId="192CC677-2222-4638-B01A-376641912E00" ModuleId="DTO Mapping Test Entities" />
+</Modules>
