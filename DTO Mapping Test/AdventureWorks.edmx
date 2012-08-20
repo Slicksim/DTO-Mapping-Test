@@ -5803,7 +5803,7 @@
         <EntityTypeShape EntityType="AdventureWorks.CountryRegion" Width="1.5" PointX="7.5" PointY="55.5" Height="2.1725878906250102" />
         <EntityTypeShape EntityType="AdventureWorks.EmailAddress" Width="1.5" PointX="12" PointY="73.75" Height="2.1725878906250102" />
         <EntityTypeShape EntityType="AdventureWorks.Password" Width="1.5" PointX="12" PointY="81.625" Height="2.1725878906250102" />
-        <EntityTypeShape EntityType="AdventureWorks.Person" Width="1.5" PointX="9.75" PointY="73.625" Height="5.0571093749999818" />
+        <EntityTypeShape EntityType="AdventureWorks.Person" Width="1.5" PointX="9.75" PointY="73.625" Height="5.057109374999996" />
         <EntityTypeShape EntityType="AdventureWorks.PersonPhone" Width="1.5" PointX="15" PointY="79" Height="2.1725878906249818" />
         <EntityTypeShape EntityType="AdventureWorks.PhoneNumberType" Width="1.5" PointX="12.75" PointY="92.25" Height="1.7879850260416674" />
         <EntityTypeShape EntityType="AdventureWorks.StateProvince" Width="1.5" PointX="9.75" PointY="57.375" Height="3.326396484374996" />
@@ -5862,16 +5862,16 @@
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_Employee_Person_BusinessEntityID" >
           <ConnectorPoint PointX="9.75" PointY="74.21875" />
-          <ConnectorPoint PointX="9.6770833333333339" PointY="74.21875" />
-          <ConnectorPoint PointX="9.3541666666666661" PointY="74.21875" />
+          <ConnectorPoint PointX="9.5833333333333339" PointY="74.21875" />
+          <ConnectorPoint PointX="9.3229166666666661" PointY="74.21875" />
           <ConnectorPoint PointX="8.3333333333333339" PointY="74.21875" />
           <ConnectorPoint PointX="8.1666666666666661" PointY="74.21875" />
           <ConnectorPoint PointX="7.208333333333333" PointY="74.21875" />
           <ConnectorPoint PointX="7.041666666666667" PointY="74.21875" />
           <ConnectorPoint PointX="6.4895858333333329" PointY="74.21875" />
           <ConnectorPoint PointX="6.3229191666666669" PointY="74.21875" />
-          <ConnectorPoint PointX="6" PointY="74.21875" />
-          <ConnectorPoint PointX="6" PointY="79.375" />
+          <ConnectorPoint PointX="5.79687375" PointY="74.21875" />
+          <ConnectorPoint PointX="5.79687375" PointY="79.375" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" >
           <ConnectorPoint PointX="6" PointY="84.43210937500001" />
@@ -5949,8 +5949,8 @@
           <ConnectorPoint PointX="9.5833333333333339" PointY="66.375" />
           <ConnectorPoint PointX="11.729166666666666" PointY="66.375" />
           <ConnectorPoint PointX="11.895833333333334" PointY="66.375" />
-          <ConnectorPoint PointX="13.75" PointY="66.375" />
-          <ConnectorPoint PointX="13.75" PointY="65.75" />
+          <ConnectorPoint PointX="13.791666666666666" PointY="66.375" />
+          <ConnectorPoint PointX="13.791666666666666" PointY="65.75" />
           <ConnectorPoint PointX="13.791666666666666" PointY="65.75" />
           <ConnectorPoint PointX="14.114583333333334" PointY="65.75" />
           <ConnectorPoint PointX="14.510416666666666" PointY="65.75" />
@@ -5967,23 +5967,25 @@
           <ConnectorPoint PointX="8.25" PointY="77.432190755208325" />
           <ConnectorPoint PointX="8.25" PointY="78.932109374999982" />
           <ConnectorPoint PointX="9.2916666666666661" PointY="78.932109374999982" />
-          <ConnectorPoint PointX="9.6770833333333339" PointY="78.932109374999982" />
+          <ConnectorPoint PointX="9.5208333333333339" PointY="78.932109374999982" />
           <ConnectorPoint PointX="10.416666666666666" PointY="78.932109374999982" />
           <ConnectorPoint PointX="10.583333333333334" PointY="78.932109374999982" />
           <ConnectorPoint PointX="11.417821512820519" PointY="78.932109374999982" />
           <ConnectorPoint PointX="11.584488179487186" PointY="78.932109374999982" />
           <ConnectorPoint PointX="11.75" PointY="78.932109374999982" />
-          <ConnectorPoint PointX="11.75" PointY="76.6487939453125" />
-          <ConnectorPoint PointX="14.354166666666666" PointY="76.6487939453125" />
-          <ConnectorPoint PointX="14.520833333333334" PointY="76.6487939453125" />
-          <ConnectorPoint PointX="14.697916666666666" PointY="76.6487939453125" />
-          <ConnectorPoint PointX="14.864583333333334" PointY="76.6487939453125" />
-          <ConnectorPoint PointX="15" PointY="76.6487939453125" />
+          <ConnectorPoint PointX="11.75" PointY="76.285688417968757" />
+          <ConnectorPoint PointX="14.072916666666666" PointY="76.285688417968757" />
+          <ConnectorPoint PointX="14.239583333333334" PointY="76.285688417968757" />
+          <ConnectorPoint PointX="14.354166666666666" PointY="76.285688417968757" />
+          <ConnectorPoint PointX="14.520833333333334" PointY="76.285688417968757" />
+          <ConnectorPoint PointX="14.697916666666666" PointY="76.285688417968757" />
+          <ConnectorPoint PointX="14.864583333333334" PointY="76.285688417968757" />
+          <ConnectorPoint PointX="15" PointY="76.285688417968757" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_Person_BusinessEntity_BusinessEntityID" >
           <ConnectorPoint PointX="9" PointY="76.153595377604162" />
-          <ConnectorPoint PointX="9.3541666666666661" PointY="76.153595377604162" />
-          <ConnectorPoint PointX="9.6770833333333339" PointY="76.153595377604162" />
+          <ConnectorPoint PointX="9.3229166666666661" PointY="76.153595377604162" />
+          <ConnectorPoint PointX="9.5208333333333339" PointY="76.153595377604162" />
           <ConnectorPoint PointX="9.75" PointY="76.153595377604162" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_Store_BusinessEntity_BusinessEntityID" >
@@ -5994,6 +5996,8 @@
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_Vendor_BusinessEntity_BusinessEntityID" >
           <ConnectorPoint PointX="9" PointY="75.483045688802079" />
+          <ConnectorPoint PointX="9.3229166666666661" PointY="75.483045688802079" />
+          <ConnectorPoint PointX="9.4895833333333339" PointY="75.483045688802079" />
           <ConnectorPoint PointX="9.5" PointY="75.483045688802079" />
           <ConnectorPoint PointX="9.5" PointY="54.489889322916667" />
           <ConnectorPoint PointX="10.5" PointY="54.489889322916667" />
@@ -6001,20 +6005,24 @@
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_BusinessEntityContact_ContactType_ContactTypeID" >
           <ConnectorPoint PointX="14.15625" PointY="89.25" />
-          <ConnectorPoint PointX="14.15625" PointY="77.011899472656253" />
-          <ConnectorPoint PointX="14.354166666666666" PointY="77.011899472656253" />
-          <ConnectorPoint PointX="14.520833333333334" PointY="77.011899472656253" />
-          <ConnectorPoint PointX="14.697916666666666" PointY="77.011899472656253" />
-          <ConnectorPoint PointX="14.864583333333334" PointY="77.011899472656253" />
-          <ConnectorPoint PointX="15" PointY="77.011899472656253" />
+          <ConnectorPoint PointX="14.15625" PointY="75.73064497265625" />
+          <ConnectorPoint PointX="14.354166666666666" PointY="75.73064497265625" />
+          <ConnectorPoint PointX="14.520833333333334" PointY="75.73064497265625" />
+          <ConnectorPoint PointX="14.697916666666666" PointY="75.73064497265625" />
+          <ConnectorPoint PointX="14.864583333333334" PointY="75.73064497265625" />
+          <ConnectorPoint PointX="15" PointY="75.73064497265625" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_BusinessEntityContact_Person_PersonID" >
-          <ConnectorPoint PointX="11.25" PointY="76.254440917968765" />
-          <ConnectorPoint PointX="14.354166666666666" PointY="76.254440917968765" />
-          <ConnectorPoint PointX="14.520833333333334" PointY="76.254440917968765" />
-          <ConnectorPoint PointX="14.697916666666666" PointY="76.254440917968765" />
-          <ConnectorPoint PointX="14.864583333333334" PointY="76.254440917968765" />
-          <ConnectorPoint PointX="15" PointY="76.254440917968765" />
+          <ConnectorPoint PointX="11.25" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="11.666666666666666" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="11.833333333333334" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="14.072916666666666" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="14.239583333333334" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="14.354166666666666" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="14.520833333333334" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="14.697916666666666" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="14.864583333333334" PointY="76.861594208984371" />
+          <ConnectorPoint PointX="15" PointY="76.861594208984371" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_CountryRegionCurrency_CountryRegion_CountryRegionCode" >
           <ConnectorPoint PointX="9" PointY="56.841095377604177" />
@@ -6061,8 +6069,8 @@
         <AssociationConnector Association="AdventureWorks.FK_PersonCreditCard_Person_BusinessEntityID" >
           <ConnectorPoint PointX="10.5" PointY="73.625" />
           <ConnectorPoint PointX="10.5" PointY="73.375" />
-          <ConnectorPoint PointX="14" PointY="73.375" />
-          <ConnectorPoint PointX="14" PointY="74.408315429687491" />
+          <ConnectorPoint PointX="13.75" PointY="73.375" />
+          <ConnectorPoint PointX="13.75" PointY="74.408315429687491" />
           <ConnectorPoint PointX="14.354166666666666" PointY="74.408315429687491" />
           <ConnectorPoint PointX="14.520833333333334" PointY="74.408315429687491" />
           <ConnectorPoint PointX="14.697916666666666" PointY="74.408315429687491" />
@@ -6070,12 +6078,12 @@
           <ConnectorPoint PointX="17.25" PointY="74.408315429687491" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_PersonPhone_Person_BusinessEntityID" >
-          <ConnectorPoint PointX="10.5" PointY="78.682109374999982" />
+          <ConnectorPoint PointX="10.5" PointY="78.682109375" />
           <ConnectorPoint PointX="10.5" PointY="80.086293945312491" />
           <ConnectorPoint PointX="11.541666666666666" PointY="80.086293945312491" />
           <ConnectorPoint PointX="11.708333333333334" PointY="80.086293945312491" />
-          <ConnectorPoint PointX="11.75" PointY="80.086293945312491" />
-          <ConnectorPoint PointX="11.75" PointY="80.759095052083353" />
+          <ConnectorPoint PointX="11.875" PointY="80.086293945312491" />
+          <ConnectorPoint PointX="11.875" PointY="80.759095052083353" />
           <ConnectorPoint PointX="14.072916666666666" PointY="80.759095052083353" />
           <ConnectorPoint PointX="14.239583333333334" PointY="80.759095052083353" />
           <ConnectorPoint PointX="14.625" PointY="80.759095052083353" />
@@ -6334,12 +6342,12 @@
         <AssociationConnector Association="AdventureWorks.FK_CountryRegionCurrency_Currency_CurrencyCode" >
           <ConnectorPoint PointX="11.25" PointY="70.3123066923077" />
           <ConnectorPoint PointX="11.8125" PointY="69.7498066923077" />
-          <ConnectorPoint PointX="11.8125" PointY="61.355286458333325" />
-          <ConnectorPoint PointX="13.791666666666666" PointY="61.355286458333325" />
-          <ConnectorPoint PointX="14.114583333333334" PointY="61.355286458333325" />
-          <ConnectorPoint PointX="16.625" PointY="61.355286458333325" />
-          <ConnectorPoint PointX="16.691074434901122" PointY="61.289212023432206" />
-          <ConnectorPoint PointX="16.808925565098878" PointY="61.171360893234443" />
+          <ConnectorPoint PointX="11.8125" PointY="61.330878690098878" />
+          <ConnectorPoint PointX="13.791666666666666" PointY="61.330878690098878" />
+          <ConnectorPoint PointX="14.114583333333334" PointY="61.330878690098878" />
+          <ConnectorPoint PointX="16.649407768234454" PointY="61.330878690098878" />
+          <ConnectorPoint PointX="16.649407768234454" PointY="61.330878690098878" />
+          <ConnectorPoint PointX="16.76725889843221" PointY="61.213027559901114" />
           <ConnectorPoint PointX="17" PointY="60.980286458333325" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_PersonCreditCard_CreditCard_CreditCardID" >
@@ -6347,12 +6355,12 @@
           <ConnectorPoint PointX="13.816074434901122" PointY="69.4348026516479" />
           <ConnectorPoint PointX="13.933925565098878" PointY="69.552653781845649" />
           <ConnectorPoint PointX="13.9375" PointY="69.556228216746774" />
-          <ConnectorPoint PointX="13.9375" PointY="74.174970644531243" />
-          <ConnectorPoint PointX="14.354166666666666" PointY="74.174970644531243" />
-          <ConnectorPoint PointX="14.520833333333334" PointY="74.174970644531243" />
-          <ConnectorPoint PointX="14.697916666666666" PointY="74.174970644531243" />
-          <ConnectorPoint PointX="14.864583333333334" PointY="74.174970644531243" />
-          <ConnectorPoint PointX="17.25" PointY="74.174970644531243" />
+          <ConnectorPoint PointX="13.9375" PointY="74.408315429687491" />
+          <ConnectorPoint PointX="14.354166666666666" PointY="74.408315429687491" />
+          <ConnectorPoint PointX="14.520833333333334" PointY="74.408315429687491" />
+          <ConnectorPoint PointX="14.697916666666666" PointY="74.408315429687491" />
+          <ConnectorPoint PointX="14.864583333333334" PointY="74.408315429687491" />
+          <ConnectorPoint PointX="17.25" PointY="74.408315429687491" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_SalesOrderHeader_CreditCard_CreditCardID" >
           <ConnectorPoint PointX="13.5" PointY="67.8406116083734" />
@@ -6378,8 +6386,6 @@
           <ConnectorPoint PointX="9" PointY="62.407139675080131" />
           <ConnectorPoint PointX="9.4375" PointY="62.844639675080131" />
           <ConnectorPoint PointX="9.4375" PointY="79.509201660156236" />
-          <ConnectorPoint PointX="9.4386178526642741" PointY="79.509201660156236" />
-          <ConnectorPoint PointX="9.605284519330942" PointY="79.509201660156236" />
           <ConnectorPoint PointX="10.416666666666666" PointY="79.509201660156236" />
           <ConnectorPoint PointX="10.583333333333334" PointY="79.509201660156236" />
           <ConnectorPoint PointX="11.541666666666666" PointY="79.509201660156236" />
@@ -6388,10 +6394,12 @@
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_Customer_Store_StoreID" >
           <ConnectorPoint PointX="11.25" PointY="80.5623066923077" />
-          <ConnectorPoint PointX="11.4375" PointY="80.3748066923077" />
-          <ConnectorPoint PointX="11.4375" PointY="81.071595052083353" />
-          <ConnectorPoint PointX="11.56607443490112" PointY="80.943020617182228" />
-          <ConnectorPoint PointX="11.683925565098878" PointY="80.825169486984478" />
+          <ConnectorPoint PointX="11.56607443490112" PointY="80.246232257406575" />
+          <ConnectorPoint PointX="11.683925565098878" PointY="80.128381127208826" />
+          <ConnectorPoint PointX="11.6875" PointY="80.1248066923077" />
+          <ConnectorPoint PointX="11.6875" PointY="80.821595052083353" />
+          <ConnectorPoint PointX="11.81607443490112" PointY="80.693020617182228" />
+          <ConnectorPoint PointX="11.933925565098878" PointY="80.575169486984478" />
           <ConnectorPoint PointX="12" PointY="80.509095052083353" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_SalesOrderHeader_Customer_CustomerID" >
@@ -6428,8 +6436,8 @@
         <AssociationConnector Association="AdventureWorks.FK_SalesOrderHeader_SalesTerritory_TerritoryID" >
           <ConnectorPoint PointX="8.625" PointY="62.470602213541667" />
           <ConnectorPoint PointX="8.625" PointY="73.127146809895834" />
-          <ConnectorPoint PointX="9.3541666666666661" PointY="73.127146809895834" />
-          <ConnectorPoint PointX="9.6770833333333339" PointY="73.127146809895834" />
+          <ConnectorPoint PointX="9.3229166666666661" PointY="73.127146809895834" />
+          <ConnectorPoint PointX="9.5833333333333339" PointY="73.127146809895834" />
           <ConnectorPoint PointX="13.854166666666666" PointY="73.127146809895834" />
           <ConnectorPoint PointX="14.020833333333334" PointY="73.127146809895834" />
           <ConnectorPoint PointX="14.25" PointY="73.127146809895834" />
@@ -6461,10 +6469,10 @@
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_SalesTerritoryHistory_SalesPerson_BusinessEntityID" >
           <ConnectorPoint PointX="9" PointY="80.031152846153844" />
-          <ConnectorPoint PointX="9.31607443490112" PointY="79.715078411252719" />
-          <ConnectorPoint PointX="9.4339255650988783" PointY="79.59722728105497" />
-          <ConnectorPoint PointX="9.59375" PointY="79.437402846153844" />
-          <ConnectorPoint PointX="9.59375" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="9.40625" PointY="79.624902846153844" />
+          <ConnectorPoint PointX="9.40625" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="9.4166666666666661" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="9.5833333333333339" PointY="68.153595377604162" />
           <ConnectorPoint PointX="9.75" PointY="68.153595377604162" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_Store_SalesPerson_SalesPersonID" >
@@ -6475,14 +6483,14 @@
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_SalesTerritoryHistory_SalesTerritory_TerritoryID" >
           <ConnectorPoint PointX="7.9062525" PointY="62.470602213541667" />
-          <ConnectorPoint PointX="7.9062525" PointY="67.4830451888021" />
-          <ConnectorPoint PointX="8.1666666666666661" PointY="67.4830451888021" />
-          <ConnectorPoint PointX="8.3333333333333339" PointY="67.4830451888021" />
-          <ConnectorPoint PointX="8.5416666666666661" PointY="67.4830451888021" />
-          <ConnectorPoint PointX="8.7083333333333339" PointY="67.4830451888021" />
-          <ConnectorPoint PointX="9.3541666666666661" PointY="67.4830451888021" />
-          <ConnectorPoint PointX="9.5833333333333339" PointY="67.4830451888021" />
-          <ConnectorPoint PointX="9.75" PointY="67.4830451888021" />
+          <ConnectorPoint PointX="7.9062525" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="8.1666666666666661" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="8.3333333333333339" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="8.5416666666666661" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="8.7083333333333339" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="9.3541666666666661" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="9.5833333333333339" PointY="68.153595377604162" />
+          <ConnectorPoint PointX="9.75" PointY="68.153595377604162" />
         </AssociationConnector>
         <AssociationConnector Association="AdventureWorks.FK_SpecialOfferProduct_SpecialOffer_SpecialOfferID" >
           <ConnectorPoint PointX="13.5" PointY="12.913198242187491" />

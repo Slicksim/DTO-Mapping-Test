@@ -8,3 +8,7 @@ F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\DTO Mapping Test E
 F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\DTO Mapping Test.dll
 F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\DTO Mapping Test Entities.pdb
 F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\DTO Mapping Test.pdb
+F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\Dapper.dll
+F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\Dapper.pdb
+F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\ImpromptuInterface.dll
+F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\bin\Debug\ImpromptuInterface.xml

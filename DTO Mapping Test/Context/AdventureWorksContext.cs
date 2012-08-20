@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Data.EntityClient;
 using System.Data.Objects;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using DTO_Mapping_Test_Entities;
@@ -36,6 +38,8 @@ namespace DTO_Mapping_Test.Context
             this.ContextOptions.ProxyCreationEnabled = false;
         }
     
+
+        public DbConnection StoreConnection {get { return ((EntityConnection)Connection).StoreConnection; }}
         #endregion
     
         #region ObjectSet Properties

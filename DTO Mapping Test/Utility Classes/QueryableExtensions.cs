@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -20,7 +21,7 @@ namespace DTO_Mapping_Test.Utility_Classes
     {
         private static readonly Dictionary<string, Expression> ExpressionCache = new Dictionary<string, Expression>();
 
-        private static readonly Dictionary<string, object> VisitedObjects = new Dictionary<string, object>();
+        private static readonly List<string> VisitedTypes = new List<string>();
 
         private readonly IQueryable<TSource> _source;
 
@@ -51,6 +52,8 @@ namespace DTO_Mapping_Test.Utility_Classes
             //var bindings = destinationProperties
             //                    .Select(destinationProperty => BuildBinding(parameterExpression, destinationProperty, sourceProperties))
             //                    .Where(binding => binding != null);
+
+            VisitedTypes.Add(typeof(TSource).FullName);
             var bindings = BuildBindings(typeof(TSource), typeof(TDest), parameterExpression);
 
             var expression = Expression.Lambda<Func<TSource, TDest>>(Expression.MemberInit(Expression.New(typeof(TDest)), (List<MemberBinding>)bindings), parameterExpression);
@@ -95,7 +98,7 @@ namespace DTO_Mapping_Test.Utility_Classes
         {
             var bindings = new List<MemberBinding>();
 
-            
+
             var sourceProperties = sourceType.GetProperties();
             var destinationProperties = destType.GetProperties().Where(dest => dest.CanWrite);
 
@@ -105,19 +108,38 @@ namespace DTO_Mapping_Test.Utility_Classes
                 if (sourceProperty != null)
                 {
                     if (sourceProperty.PropertyType.IsSealed)
-                            bindings.Add(Expression.Bind(destinationProperty,
-                                                         Expression.Property(parameterExpression, sourceProperty)));
-                        else
-                    {
                         bindings.Add(Expression.Bind(destinationProperty,
+                                                     Expression.Property(parameterExpression, sourceProperty)));
+                    else
+                    {
+                        if (VisitedTypes.Contains(sourceProperty.PropertyType.FullName))
+                            continue;
+
+                        // have to exclude lists as they are bound with the include statement
+                        if (!sourceProperty.PropertyType.Namespace.Equals("System.Collections.Generic", StringComparison.OrdinalIgnoreCase))
+                            bindings.Add(Expression.Bind(destinationProperty,
                                                      Expression.MemberInit(
                                                          Expression.New(destinationProperty.PropertyType),
                                                          BuildBindings(sourceProperty.PropertyType,
                                                                        destinationProperty.PropertyType,
                                                                        Expression.Property(parameterExpression,
                                                                                            sourceProperty)))));
+                        else
+                        {
+                            var type = destinationProperty.PropertyType.GetGenericArguments().First();
+                            var newList =
+                                Expression.New(
+                                    typeof(List<>).MakeGenericType(
+                                        destinationProperty.PropertyType.GetGenericArguments().First()));
+                            var newItem = Expression.New(type);
+                            var addMethod =
+                                typeof (List<>).MakeGenericType(type).GetMethod("Add");
+                            var elementInit1 = Expression.ElementInit(addMethod, newItem);
+                            bindings.Add(Expression.Bind(destinationProperty,
+                                                         Expression.ListInit(newList, elementInit1)));
+                        }
                     }
-                    
+
                 }
             }
 

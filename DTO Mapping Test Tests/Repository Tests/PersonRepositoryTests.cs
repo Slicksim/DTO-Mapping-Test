@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data.Objects;
 using System.Linq;
 using System.Linq.Expressions;
@@ -29,18 +30,13 @@ namespace DTO_Mapping_Test_Tests.Repository_Tests
             var people = _repository.GetPeople();
 
             var query = (ObjectQuery) people;
+            // start a loop
 
-            var parameter = Expression.Parameter(typeof (IQueryable<Person>));
+            // loop over the items
+           
+            var projected = people.Project().To<Person>();
 
-            var method = typeof(QueryableExtensions).GetMethod("Project").MakeGenericMethod(typeof(IQueryable<Person>));
-
-            var expression = Expression.Call(method, new Expression[] { Expression.Constant((IQueryable<Person>)people) });       
-
-            var lambda = Expression.Lambda(expression);
-
-            //var projected = people.Project().To<Person>();
-
-            //var otherQuery = (ObjectQuery) projected;
+            var otherQuery = (ObjectQuery) projected;
 
             //var projectedList = projected.ToList();
 

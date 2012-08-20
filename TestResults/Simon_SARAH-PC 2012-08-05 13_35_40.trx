@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f187f9ea-ec63-471d-b50d-066f9f9df9c4" name="Simon@SARAH-PC 2012-08-05 13:35:40" runUser="Sarah-PC\Simon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="894cf1ee-93cc-4eef-8158-c74ed586523d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Simon_SARAH-PC 2012-08-05 13_35_40">
+      <DeploymentItem filename="F:\Projects\DTO Mapping Test\DTO Mapping Test\bin\Debug\DTO Mapping Test.dll" />
+      <DeploymentItem filename="F:\Projects\DTO Mapping Test\DTO Mapping Test Entities\bin\Debug\DTO Mapping Test Entities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-05T13:35:40.4690000+01:00" queuing="2012-08-05T13:35:42.6180000+01:00" start="2012-08-05T13:35:42.7440000+01:00" finish="2012-08-05T13:35:44.2930000+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PersonRepository_CanGetPeople" storage="f:\projects\dto mapping test\dto mapping test tests\bin\debug\dto mapping test tests.dll" id="cafdda6e-1ea4-48c7-4725-2516970441d2">
+      <Execution id="9bb10869-35f7-45fd-99f7-e137c818d8a6" />
+      <TestMethod codeBase="F:/Projects/DTO Mapping Test/DTO Mapping Test Tests/bin/Debug/DTO Mapping Test Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTO_Mapping_Test_Tests.Repository_Tests.PersonRepositoryTests, DTO Mapping Test Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PersonRepository_CanGetPeople" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cafdda6e-1ea4-48c7-4725-2516970441d2" executionId="9bb10869-35f7-45fd-99f7-e137c818d8a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9bb10869-35f7-45fd-99f7-e137c818d8a6" testId="cafdda6e-1ea4-48c7-4725-2516970441d2" testName="PersonRepository_CanGetPeople" computerName="SARAH-PC" duration="00:00:00.8472690" startTime="2012-08-05T13:35:42.7680000+01:00" endTime="2012-08-05T13:35:44.1910000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bb10869-35f7-45fd-99f7-e137c818d8a6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DTO_Mapping_Test_Tests.Repository_Tests.PersonRepositoryTests.PersonRepository_CanGetPeople threw exception: 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: method</Message>
+          <StackTrace>    at System.Linq.Expressions.Expression.Call(Expression instance, MethodInfo method, IEnumerable`1 arguments)
+   at System.Linq.Expressions.Expression.Call(Expression instance, MethodInfo method)
+   at DTO_Mapping_Test_Tests.Repository_Tests.PersonRepositoryTests.PersonRepository_CanGetPeople() in F:\Projects\DTO Mapping Test\DTO Mapping Test Tests\Repository Tests\PersonRepositoryTests.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

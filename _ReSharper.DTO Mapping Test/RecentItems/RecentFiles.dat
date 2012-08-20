@@ -1,45 +1,49 @@
 ﻿<RecentFiles>
   <RecentFiles>
     <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/f:App.Config" caret="92" fromTop="3" />
-    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Employee.cs" caret="807" fromTop="16" />
+    <File id="192CC677-2222-4638-B01A-376641912E00/f:Model1.tt" caret="1413" fromTop="17" />
+    <File id="192CC677-2222-4638-B01A-376641912E00/f:Person.cs" caret="4637" fromTop="16" />
     <File id="192CC677-2222-4638-B01A-376641912E00/f:Employee.cs" caret="2134" fromTop="0" />
+    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Employee.cs" caret="807" fromTop="37" />
     <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Context/f:UnitOfWork.cs" caret="405" fromTop="14" />
-    <File id="192CC677-2222-4638-B01A-376641912E00/f:Person.cs" caret="3567" fromTop="33" />
-    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Person.cs" caret="1043" fromTop="49" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="948" fromTop="2" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="650" fromTop="13" />
-    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="1032" fromTop="12" />
+    <File id="192CC677-2222-4638-B01A-376641912E00/f:BusinessEntityContact.cs" caret="784" fromTop="15" />
+    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Person.cs" caret="1108" fromTop="16" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Context/f:AdventureWorksContext.cs" caret="1416" fromTop="23" />
+    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="740" fromTop="5" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="2237" fromTop="15" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/f:AdventureWorks.edmx" caret="198168" fromTop="10" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="760" fromTop="7" />
   </RecentFiles>
   <RecentEdits>
-    <File id="192CC677-2222-4638-B01A-376641912E00/f:Person.cs" caret="3580" fromTop="12" />
-    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Employee.cs" caret="236" fromTop="9" />
-    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Employee.cs" caret="191" fromTop="8" />
-    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Person.cs" caret="1043" fromTop="21" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="613" fromTop="19" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5710" fromTop="19" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="1526" fromTop="12" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5710" fromTop="12" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5710" fromTop="19" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5324" fromTop="22" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="1526" fromTop="6" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="1540" fromTop="4" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5324" fromTop="10" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5324" fromTop="15" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5324" fromTop="24" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5324" fromTop="13" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5324" fromTop="30" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5324" fromTop="9" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="4243" fromTop="14" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5272" fromTop="13" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="4327" fromTop="18" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="2131" fromTop="16" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5226" fromTop="25" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="18" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="16" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="25" />
     <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Employee.cs" caret="807" fromTop="16" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="769" fromTop="16" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="3794" fromTop="10" />
-    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="4609" fromTop="24" />
-    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="1389" fromTop="24" />
-    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="1087" fromTop="18" />
-    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="1130" fromTop="12" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="10" />
+    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="1424" fromTop="24" />
+    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="1122" fromTop="18" />
+    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="1165" fromTop="12" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="768" fromTop="13" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="24" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="21" />
+    <File id="192CC677-2222-4638-B01A-376641912E00/d:DTOs/f:Person.cs" caret="1157" fromTop="22" />
+    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="920" fromTop="24" />
+    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="840" fromTop="13" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="17" />
+    <File id="5B4D56CD-19A5-45C8-92EF-11BB29876571/d:Repository Tests/f:PersonRepositoryTests.cs" caret="996" fromTop="17" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="17" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="23" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6604" fromTop="19" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6115" fromTop="22" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="5792" fromTop="17" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Utility Classes/f:QueryableExtensions.cs" caret="6125" fromTop="18" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="203" fromTop="5" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="988" fromTop="13" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="988" fromTop="24" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Context/f:AdventureWorksContext.cs" caret="1325" fromTop="23" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="1631" fromTop="8" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="1658" fromTop="17" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/f:AdventureWorks.edmx" caret="428576" fromTop="23" />
+    <File id="428E6E5B-ACD4-48D9-BA3F-5ADE4C869ED9/d:Repositories/f:PersonRepository.cs" caret="760" fromTop="7" />
   </RecentEdits>
 </RecentFiles>

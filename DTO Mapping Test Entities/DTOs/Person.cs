@@ -48,5 +48,8 @@ namespace DTO_Mapping_Test_Entities.DTOs
 
         [DataMember]
         public virtual Employee Employee { get; set; }
+
+        [DataMember]
+        public virtual IList<BusinessEntityContact> BusinessEntityContacts { get; set; }
     }
 }
